@@ -1,0 +1,26 @@
+{
+    "name": "shakespearehighlight",
+    "displayName": "shakespeare_syntax_highlights",
+    "description": "A VSC extension to help me program in shakespeare",
+    "publisher": "S-Mancl",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "shakespeare_language",
+            "aliases": ["spl"],
+            "extensions": [".spl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "shakespeare_language",
+            "scopeName": "source.spl",
+            "path": "./syntaxes/spl.tmLanguage.json"
+        }]
+    }
+}
