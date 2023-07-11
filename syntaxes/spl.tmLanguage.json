@@ -18,13 +18,13 @@
 	"repository": {
 		"storage":{
 			"name":"storage.modifier.spl",
-			"match":"\\b(?i)(Remember|Recall)\\b"
+			"match":"\\b(?i)(Remember|Recall|Speak your mind|Open your heart|Open your mind\\W|Listen to your heart)\\b"
 		},
 		"constant":{
 			"patterns": [
 				{
 				"name": "constant.character.spl",
-				"match": "(:|!|,)"
+				"match": "\\b(Enter|Exeunt)\\b"
 				},
 				{
 				"name": "constant.language.spl",
@@ -41,7 +41,7 @@
 			"patterns": [
 				{
 				"name": "keyword.control.spl",
-				"match": "\\b(?i)(Let us proceed|Let us return|Act|Scene)\\b"
+				"match": "\\b(?i)(Let us proceed|Let us return|Act .+\\W\\s|Scene .+\\W\\s)\\b"
 				},
 				{
 				"name": "keyword.operator.spl",
