@@ -24,7 +24,7 @@
 			"patterns": [
 				{
 				"name": "constant.character.spl",
-				"match": "\\b(Enter|Exeunt)\\b"
+				"match": "\\b(?i)(Enter|Exeunt)\\b"
 				},
 				{
 				"name": "constant.language.spl",

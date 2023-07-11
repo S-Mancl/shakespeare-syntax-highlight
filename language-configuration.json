@@ -1,7 +1,4 @@
 {
-    "comments": {
-        "lineComment": ", "
-    },
     // symbols used as brackets
     "brackets": [
         ["[", "]"]
