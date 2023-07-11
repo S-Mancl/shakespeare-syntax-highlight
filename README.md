@@ -9,8 +9,8 @@ So I created one! That's cool right?
 To install it, you need to copy the files to your VS Code extensions folder.
 
 Depending on your platform, it is located in the following folders:
-* Windows %USERPROFILE%\.vscode\extensions
-* macOS ~/.vscode/extensions
-* Linux ~/.vscode/extensions
+* Windows %`USERPROFILE%\.vscode\extensions`
+* macOS `~/.vscode/extensions`
+* Linux `~/.vscode/extensions`
 
 > Please notice: visualisation and colours depends on your theme
