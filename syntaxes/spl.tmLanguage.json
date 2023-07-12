@@ -18,7 +18,7 @@
 	"repository": {
 		"storage":{
 			"name":"storage.modifier.spl",
-			"match":"\\b(?i)(Remember|Recall|Speak your mind|Open your heart|Open your mind\\W|Listen to your heart)\\b"
+			"match":"\\b(?i)(Remember|Recall|Speak\\syour\\smind|Open\\syour\\sheart|Open\\syour\\smind|Listen\\sto\\syour\\sheart)\\b"
 		},
 		"constant":{
 			"patterns": [
@@ -28,7 +28,8 @@
 				},
 				{
 				"name": "constant.language.spl",
-				"match": "\\b(Achilles|Adonis|Adriana|Aegeon|Aemilia|Agamemnon|Agrippa|Ajax Alonso|Andromache|Angelo|Antiochus|Antonio|Arthur|Autolycus|Balthazar|Banquo|Beatrice|Benedick|Benvolio|Bianca|Brabantio|Brutus|Capulet|Cassandra|Cassius|Christopher|Cicero|Claudio|Claudius|Cleopatra|Cordelia|Cornelius|Cressida|Cymberline|Demetrius|Desdemona|Dionyza|Doctor|Dogberry|Don|Donalbain|Dorcas|Duncan|Egeus|Emilia|Escalus|Falstaff|Fenton|Ferdinand|Ford|Fortinbras|Francisca|Friar|Gertrude|Goneril|Hamlet|Hecate|Hector|Helen|Helena|Hermia|Hermonie|Hippolyta|Horatio|Imogen|Isabella|John Julia|Juliet|Julius King|Lady|Lennox|Leonato|Luciana|Lucio|Lychorida|Lysander|Macbeth|Macduff|Malcolm|Mariana|Mark|Mercutio|Miranda|Mistress|Montague|Mopsa|Oberon|Octavia|Octavius|Olivia|Ophelia|Orlando|Orsino|Othello|Page|Pantino|Paris|Pericles|Pinch|Polonius|Pompeius|Portia|Priam|Prince|Prospero|Proteus|Publius|Puck|Queen|Regan|Robin|Romeo|Rosalind|Sebastian|Shallow|Shylock|Slender|Solinus|Stephano|Thaisa|The|Theseus|Thurio|Timon|Titania|Titus|Troilus|Tybalt|Ulysses|Valentine|Venus|Vincentio|Viola)\\b"
+				
+				"match": "\\b(?i)(Heaven|King|Lord|angel|flower|happiness|joy|plum|summer's\\sday|hero|rose|kingdom|pony|animal|aunt|brother|cat|chihuahua|cousin|cow|daughter|door|face|father|fellow|granddaughter|grandfather|grandmother|grandson|hair|hamster|horse|lamp|lantern|mistletoe|moon|morning|mother|nephew|niece|nose|purse|road|roman|sister|sky|son|squirrel|stone|wall|thing|town|tree|uncle|wind|Hell|Microsoft|bastard|beggar|blister|codpiece|coward|curse|death|devil|draught|famine|flirt-gill|goat|hate|hog|hound|leech|lie|pig|plague|starvation|toad|war|wolf)\\b"
 				},
 				{
 				"name": "constant.numeric.spl",
@@ -41,11 +42,11 @@
 			"patterns": [
 				{
 				"name": "keyword.control.spl",
-				"match": "\\b(?i)(Let us proceed|Let us return|Act .+\\W\\s|Scene .+\\W\\s)\\b"
+				"match": "\\b(?i)(If\\sso|If\\snot|Let us proceed|Let us return|Act .+\\W\\s|Scene .+\\W\\s)\\b"
 				},
 				{
 				"name": "keyword.operator.spl",
-				"match": "\\b(?i)(are|as|am|sum|difference|between|and)\\b"
+				"match": "\\b(?i)(be|art|is|are|as|am|sum|difference|between|and)\\b"
 				}
 			]
 			},
@@ -53,7 +54,8 @@
 			"patterns": [
 				{
 				"name": "variable.language.spl"	,
-				"match": "\\b(?i)(You|I|Yourself|Myself|Thyself)\\b"
+				"match": "\\b(?i)(Yourself|I|Your|Myself|Thyself)|(Achilles|Adonis|Adriana|Aegeon|Aemilia|Agamemnon|Agrippa|Ajax Alonso|Andromache|Angelo|Antiochus|Antonio|Arthur|Autolycus|Balthazar|Banquo|Beatrice|Benedick|Benvolio|Bianca|Brabantio|Brutus|Capulet|Cassandra|Cassius|Christopher|Cicero|Claudio|Claudius|Cleopatra|Cordelia|Cornelius|Cressida|Cymberline|Demetrius|Desdemona|Dionyza|Doctor|Dogberry|Don|Donalbain|Dorcas|Duncan|Egeus|Emilia|Escalus|Falstaff|Fenton|Ferdinand|Ford|Fortinbras|Francisca|Friar|Gertrude|Goneril|Hamlet|Hecate|Hector|Helen|Helena|Hermia|Hermonie|Hippolyta|Horatio|Imogen|Isabella|John Julia|Juliet|Julius King|Lady|Lennox|Leonato|Luciana|Lucio|Lychorida|Lysander|Macbeth|Macduff|Malcolm|Mariana|Mark|Mercutio|Miranda|Mistress|Montague|Mopsa|Oberon|Octavia|Octavius|Olivia|Ophelia|Orlando|Orsino|Othello|Page|Pantino|Paris|Pericles|Pinch|Polonius|Pompeius|Portia|Priam|Prince|Prospero|Proteus|Publius|Puck|Queen|Regan|Robin|Romeo|Rosalind|Sebastian|Shallow|Shylock|Slender|Solinus|Stephano|Thaisa|Theseus|Thurio|Timon|Titania|Titus|Troilus|Tybalt|Ulysses|Valentine|Venus|Vincentio|Viola)\\b"
+				
 				}
 			]
 		}
