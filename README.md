@@ -1,4 +1,4 @@
-# A syntax highlighter for Shakespear Programming Language
+# A syntax highlighter for Shakespeare Programming Language
 When I started to program in this wonderful and crazy language I discovered there was no syntax higlighter (EDIT: there was one for Atom, linked below, but I discovered it too late...).
 
 So I created one! That's cool right?
